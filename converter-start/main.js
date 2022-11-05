@@ -8,15 +8,29 @@ const rates = {};
 
 getCurrencies();
 
-async function getCurrencies(){
-  const response = await fetch('db.json');//получили Json объект в response//fetch возвращает 
-  //объект у которого есть метод json
-  const data = await response.json();//превращаем JSON в js объект и записываем в data
+// async function getCurrencies(){
+//   const response = await fetch('db.json');//получили Json объект в response//fetch возвращает 
+//   //объект у которого есть метод json
+//   const data = await response.json();//превращаем JSON в js объект и записываем в data
+
+
+const data:{
+   "distance" : {
+        "m": 1000,
+        "sm": 10,
+        "ft": 304.8,
+        "yd": 914.4,
+        "km": 1000000,
+        "mm": 1,
+        "in": 25.4
+   }
+}
+
 rates.m = data.distance.m;
 rates.sm = data.distance.sm;
 rates.ft = data.distance.ft;
 rates.yd = data.distance.yd;
-rates.km = data.distance.km;
+rates.km = data.distance.km; 
 rates.mm = data.distance.mm;
 rates.in = data.distance.in;
 }

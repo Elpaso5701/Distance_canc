@@ -7,26 +7,26 @@ const allSelectBoxes = document.querySelectorAll('.selectbox');
 const rates = {};
 
 
-const data = {
-  "distance" : {
-       "m": 1000,
-       "sm": 10,
-       "ft": 304.8,
-       "yd": 914.4,
-       "km": 1000000,
-       "mm": 1,
-       "in": 25.4
-  }
-}
+// const data = {
+//   "distance" : {
+//        "m": 1000,
+//        "sm": 10,
+//        "ft": 304.8,
+//        "yd": 914.4,
+//        "km": 1000000,
+//        "mm": 1,
+//        "in": 25.4
+//   }
+// }
 
 
-rates.m = data.distance.m;
-rates.sm = data.distance.sm;
-rates.ft = data.distance.ft;
-rates.yd = data.distance.yd;
-rates.km = data.distance.km; 
-rates.mm = data.distance.mm;
-rates.in = data.distance.in;
+rates.m = 1000;
+rates.sm = 10;
+rates.ft = 304.8;
+rates.yd = 914.4;
+rates.km = 1000000; 
+rates.mm = 1;
+rates.in = 25.4;
 
 
 

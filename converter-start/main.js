@@ -8,16 +8,17 @@ const rates = {};
 
 
 const data = {
-   "distance" : {
-        "m": 1000,
-        "sm": 10,
-        "ft": 304.8,
-        "yd": 914.4,
-        "km": 1000000,
-        "mm": 1,
-        "in": 25.4
-   }
+  "distance" : {
+       "m": 1000,
+       "sm": 10,
+       "ft": 304.8,
+       "yd": 914.4,
+       "km": 1000000,
+       "mm": 1,
+       "in": 25.4
+  }
 }
+
 
 rates.m = data.distance.m;
 rates.sm = data.distance.sm;
@@ -111,7 +112,6 @@ canculatorItems.forEach((itemBlock, calculatorItemIdx) => {
   }
 
 })
-
 
 
 

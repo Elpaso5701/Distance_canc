@@ -6,7 +6,7 @@ const canculatorItems = document.querySelectorAll('.calculator_item');
 const allSelectBoxes = document.querySelectorAll('.selectbox');
 const rates = {};
 
-getCurrencies();
+// getCurrencies();
 
 // async function getCurrencies(){
 //   const response = await fetch('db.json');//получили Json объект в response//fetch возвращает 
@@ -14,7 +14,7 @@ getCurrencies();
 //   const data = await response.json();//превращаем JSON в js объект и записываем в data
 
 
-const data:{
+const data = {
    "distance" : {
         "m": 1000,
         "sm": 10,
@@ -33,7 +33,7 @@ rates.yd = data.distance.yd;
 rates.km = data.distance.km; 
 rates.mm = data.distance.mm;
 rates.in = data.distance.in;
-}
+
 
 
 
